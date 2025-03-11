@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql
-  Namespace: expense
+  namespace: expense
   # labels of deployment resource
   labels:
     app: mysql
@@ -25,4 +25,3 @@ spec:
       containers:
       - name: nginx
         image: subbadocker496/mysql:1.0.0
-        
