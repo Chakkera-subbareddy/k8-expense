@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: subbadocker496/backend:1.0.0
+        image: hemanthkumar75/backend:v1
         imagePullPolicy: Always
 
 ---
