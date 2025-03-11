@@ -23,8 +23,9 @@ spec:
         project: expense
     spec:
       containers:
-      - name: nginx
+      - name: backend
         image: subbadocker496/backend:1.0.0
+        imagePullPolicy: Always
 
 ---
 kind: Service
